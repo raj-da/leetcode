@@ -8,7 +8,7 @@ This repository contains my personal solutions to various LeetCode problems, com
 
 ### 👨‍💻 About Me
 
-Hi! I'm **Rajaf Dereje**, a passionate software engineering student. I enjoy solving challenging problems on LeetCode and love sharing my solutions to help others in their coding journey. This repo is a collection of my problem-solving experiences with clear explanations and different approaches when possible.
+Hi! I'm **Rajaf Dereje**, a software engineering student. I enjoy solving challenging problems on LeetCode and love sharing my solutions to help others in their coding journey. This repo is a collection of my problem-solving experiences with clear explanations and different approaches when possible.
 
 ### 📚 Repository Contents
 
