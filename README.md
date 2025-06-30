@@ -33,6 +33,6 @@ My goal is to not only solve the problem but also to explain the reasoning behin
 
 ### 📈 Progress
 
-- Total Problems Solved: **18**
+- Total Problems Solved: **21**
 - Difficulty Levels: <span style = 'color: green'>Easy</span>,  <span style = 'color: orange'> Medium </span>
 
