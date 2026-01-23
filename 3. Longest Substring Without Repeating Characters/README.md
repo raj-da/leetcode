@@ -52,7 +52,3 @@ We use the **sliding window** technique with a **set** to keep track of characte
 
 ---
 
-### Code
-
-```python
-
