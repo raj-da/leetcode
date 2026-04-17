@@ -11,8 +11,7 @@ class Solution:
         res = inf
         for ind, num in enumerate(nums):
             if num in hash:
-                if num in hash:
-                    res = min(res, ind - hash[num])
+                res = min(res, ind - hash[num])
             hash[reverse(num)] = ind
         
         return res if res < inf else -1
