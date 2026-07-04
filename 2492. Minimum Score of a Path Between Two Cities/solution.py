@@ -67,3 +67,47 @@ class Solution:
         #                 que.append(neighbour)
 
         # return score
+
+
+# Union Find without Class object
+# class Solution:
+#     def minScore(self, n: int, roads: List[List[int]]) -> int:
+
+#         # --- Union Find ---
+#         parent = [node for node in range(n + 1)]
+#         count = [1] * (n+1)
+
+#         def findParent(node):
+#             if node == parent[node]:
+#                 return node
+            
+#             parent[node] = findParent(parent[node])
+#             return parent[node]
+
+        
+#         def connect(node1, node2):
+#             parent1 = findParent(node1)
+#             parent2 = findParent(node2)
+            
+#             if count[parent1] >= count[parent2]:
+#                 count[parent1] += count[parent2]
+#                 parent[parent2] = parent1 
+#             else:
+#                 count[parent2] += count[parent1]
+#                 parent[parent1] = parent2
+        
+#         def connected(node1, node2):
+#             return findParent(node1) == findParent(node2)
+        
+
+#         # --- Solution ---
+        
+#         for node1, node2, _ in roads:
+#             connect(node1, node2)
+        
+#         minValue = inf
+#         for node1, node2, value in roads:
+#             if connected(1, node1):
+#                 minValue = min(minValue, value)
+        
+#         return minValue
