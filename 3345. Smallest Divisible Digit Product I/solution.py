@@ -1,5 +1,5 @@
 class Solution:
-    def digitProduct(self, num):
+    def digitProduct(self, num: int) -> int:
         product = min(num , 1)
         while num > 0:
             product *= num % 10
